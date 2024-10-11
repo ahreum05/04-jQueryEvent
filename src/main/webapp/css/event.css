@@ -1,0 +1,78 @@
+@charset "UTF-8";
+*{
+	padding: 0;
+	margin: 10px;
+}
+div#input, #result{
+	border: 5px solid #d5d5d5;
+	text-align: center;
+	width: 300px;
+	font-weight: bold;
+	background: #eeeeff;
+	padding: 50px;	
+}
+#result {
+	font-size: 17px;
+	color: #550000;
+	background: #5aaeff;
+}
+#input > input, #input > select, #input > div, #input button {
+	width: 99%;
+	text-align: center;
+	display: block;
+	font-size: 17px;
+	color: #222222;
+	background: #eeeeff;
+	border: 3px solid #d3d3d3;
+	margin: 5px auto;
+	padding: 5px 0;
+}
+#input > h3 {
+	text-align: : left;
+	margin : 0;
+	padding : 10px 0 0 0 ;
+}
+#input > label{
+	margin: 0;
+	padding : 0;
+	display: block;
+	float: left;
+	padding-bottom: 10px;
+}
+#input > label > input {
+	width: auto !important;
+	display: inline;
+}
+#input > h3:before{
+	content: "";
+	display: block;
+	float: none;
+	clear: both;
+}
+#input .myButton ,#input > #singleButton, #input button{
+	background: linear-gradient(to bottom, #00abc1 5%, #0061a7 100%);
+	background-color: #007dc1;
+	board-radius: 3px;
+	board: 1px solid #124d77;
+	color:white;
+}
+#input .myButton:hover {
+	background: linear-gradient(to bottom, #0061a7 5%, #007dc1 100%);
+	background-color: #0061a7;
+}
+#input .myButton:active { 
+	position: relative;
+	top: 1px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
